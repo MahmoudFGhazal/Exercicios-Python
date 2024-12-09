@@ -1,0 +1,6 @@
+n = input('Insira uma frase: ')
+n = n.replace(" ", "")
+n.lower()
+print(n.count('a'))
+print(n.find('a') + 1)
+print(n.rfind('a') + 1)
